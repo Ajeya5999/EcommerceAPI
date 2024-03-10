@@ -77,3 +77,7 @@ module.exports.update = async function(req, res) {
         res.status(500).json({ message: err.message });
     }
 }
+
+module.exports.notFound = function(req, res){
+    res.status(404).json({ message: "The route does not exist" });
+}
