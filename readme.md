@@ -1,4 +1,4 @@
-# Product Inventory API
+# Ecommerce API
 
 This API allows you to manage a product inventory, including storing product names and quantities, retrieving a list of all products, deleting a product by its ID, and updating a product's quantity. It is built using Node.js and MongoDB.
 
